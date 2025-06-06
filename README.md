@@ -38,8 +38,9 @@ BSD 3-Clause License
 
 ## ²Ö¿âµØÖ·
 
-[https://github.com/handsome-Druid/BanGDream-Gacha](https://github.com/handsome-Druid/BanGDream-Gacha)
-[https://gitee.com/handsome-druid/BanGDream-Gacha-WinGUI](https://gitee.com/handsome-druid/BanGDream-Gacha-WinGUI)
+[https://github.com/handsome-Druid/BanGDream-Gacha](https://github.com/handsome-Druid/BanGDream-Gacha) 
+
+[https://gitee.com/handsome-druid/BanGDream-Gacha-WinGUI](https://gitee.com/handsome-druid/BanGDream-Gacha-WinGUI) 
 
 ## ÖÂÐ»
 
