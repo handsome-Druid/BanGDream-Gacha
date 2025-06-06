@@ -4,7 +4,7 @@
 
 本程序为邦多利（BanG Dream!）玩家提供新卡池抽卡期望模拟。通过多线程高效模拟，帮助玩家预测抽到心仪新卡所需的平均抽卡次数，辅助理性规划资源，提升游戏体验。
 
-本项目基于 [原始控制台程序](https://gitee.com/handsome-druid/BanGDream-Gacha)（由 handsome-Druid 开发）进行图形界面化和功能扩展，原项目为控制台版本，欢迎参考和对比。
+本项目基于 [控制台程序](https://gitee.com/handsome-druid/BanGDream-Gacha)（由 handsome-Druid 开发）进行图形界面化和功能扩展，原项目为控制台版本，欢迎参考和对比。
 
 ## 安装教程
 
@@ -42,4 +42,4 @@ BSD 3-Clause License
 
 ## 致谢
 
-- 原始控制台版本：[https://gitee.com/handsome-druid/BanGDream-Gacha](https://gitee.com/handsome-druid/BanGDream-Gacha)
+- 控制台版本：[https://gitee.com/handsome-druid/BanGDream-Gacha](https://gitee.com/handsome-druid/BanGDream-Gacha)
