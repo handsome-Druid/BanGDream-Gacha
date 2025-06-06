@@ -10,7 +10,7 @@
 
 - 前往 [发行版页面](https://github.com/handsome-Druid/BanGDream-Gacha/releases) 或 [Gitee](https://gitee.com/handsome-druid/BanGDream-Gacha-WinGUI/releases) 下载最新版，解压后直接运行 `BanGDream Gacha.exe`。
 - 目前仅提供 Windows 发行版。
-- Linux 用户可自行编译（需支持 C++14 和 WinAPI 兼容层，编译参数和依赖可咨询 AI）。
+- Linux 用户推荐使用控制台原版自行编译（编译参数和依赖可咨询 AI）。
 
 ## 使用说明
 
