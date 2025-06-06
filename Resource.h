@@ -3,6 +3,7 @@
 // 使用者 BanGDream Gacha.rc
 
 #define IDS_APP_TITLE			103
+#define IDC_STATIC_LINK 2001
 
 #define IDR_MAINFRAME			128
 #define IDD_BANGDREAMGACHA_DIALOG	102

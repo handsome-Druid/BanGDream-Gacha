@@ -3,6 +3,7 @@
 
 #include "framework.h"
 #include "BanGDream Gacha.h"
+#include <shellapi.h>
 
 #include <thread>
 #include <vector>
@@ -329,13 +330,30 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 // “关于”框的消息处理程序。
 INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 {
-    UNREFERENCED_PARAMETER(lParam);
     switch (message)
     {
     case WM_INITDIALOG:
-        return (INT_PTR)TRUE;
+        // 可选：设置字体为下划线蓝色
+    {
+        HWND hLink = GetDlgItem(hDlg, IDC_STATIC_LINK);
+        HFONT hFont = (HFONT)SendMessage(hLink, WM_GETFONT, 0, 0);
+        LOGFONT lf;
+        GetObject(hFont, sizeof(lf), &lf);
+        lf.lfUnderline = TRUE;
+        lf.lfWeight = FW_NORMAL;
+        wcscpy_s(lf.lfFaceName, L"MS Shell Dlg");
+        HFONT hFontUnderline = CreateFontIndirect(&lf);
+        SendMessage(hLink, WM_SETFONT, (WPARAM)hFontUnderline, TRUE);
+        SetTextColor(GetDC(hLink), RGB(0, 0, 255));
+    }
+    return (INT_PTR)TRUE;
 
     case WM_COMMAND:
+        if (LOWORD(wParam) == IDC_STATIC_LINK && HIWORD(wParam) == STN_CLICKED)
+        {
+            ShellExecute(NULL, L"open", L"https://github.com/handsome-Druid/BanGDream-Gacha", NULL, NULL, SW_SHOWNORMAL);
+            return (INT_PTR)TRUE;
+        }
         if (LOWORD(wParam) == IDOK || LOWORD(wParam) == IDCANCEL)
         {
             EndDialog(hDlg, LOWORD(wParam));
@@ -345,3 +363,4 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
     }
     return (INT_PTR)FALSE;
 }
+
