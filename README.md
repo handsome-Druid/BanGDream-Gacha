@@ -4,11 +4,11 @@
 
 本程序为邦多利（BanG Dream!）玩家提供新卡池抽卡期望模拟。通过多线程高效模拟，帮助玩家预测抽到心仪新卡所需的平均抽卡次数，辅助理性规划资源，提升游戏体验。
 
-本项目基于 [控制台程序](https://gitee.com/handsome-druid/BanGDream-Gacha)（由 handsome-Druid 开发）进行图形界面化和功能扩展，原项目为控制台版本，欢迎参考和对比。
+本项目基于 [控制台程序](https://gitee.com/handsome-druid/bangdream-gacha)（由 handsome-Druid 开发）进行图形界面化和功能扩展，原项目为控制台版本，欢迎参考和对比。
 
 ## 安装教程
 
-- 前往 [发行版页面](https://github.com/handsome-Druid/BanGDream-Gacha/releases) 下载最新版，解压后直接运行 `BanGDream Gacha.exe`。
+- 前往 [发行版页面](https://github.com/handsome-Druid/BanGDream-Gacha/releases) 或Gitee(https://gitee.com/handsome-druid/BanGDream-Gacha-WinGUI/releases)下载最新版，解压后直接运行 `BanGDream Gacha.exe`。
 - 目前仅提供 Windows 发行版。
 - Linux 用户可自行编译（需支持 C++14 和 WinAPI 兼容层，编译参数和依赖可咨询 AI）。
 
@@ -39,7 +39,8 @@ BSD 3-Clause License
 ## 仓库地址
 
 [https://github.com/handsome-Druid/BanGDream-Gacha](https://github.com/handsome-Druid/BanGDream-Gacha)
+[https://gitee.com/handsome-druid/BanGDream-Gacha-WinGUI](https://gitee.com/handsome-druid/BanGDream-Gacha-WinGUI)
 
 ## 致谢
 
-- 控制台版本：[https://gitee.com/handsome-druid/BanGDream-Gacha](https://gitee.com/handsome-druid/BanGDream-Gacha)
+- 控制台版本：[https://gitee.com/handsome-druid/bangdream-gacha](https://gitee.com/handsome-druid/bangdream-gacha)
